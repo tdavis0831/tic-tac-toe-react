@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+import TicTacToeGrid from './components/tic-tac-toe-grid/TicTacToeGrid';
+
 function App() {
   return (
     <div className="App">
+      <TicTacToeGrid />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
