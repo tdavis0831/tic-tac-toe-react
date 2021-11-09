@@ -1,18 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-
-import TicTacToeGrid from './components/tic-tac-toe-grid/TicTacToeGrid';
+import TicTacToeGrid from "./components/tic-tac-toe-grid/TicTacToeGrid";
 
 function App() {
   return (
     <div className="App">
-      <TicTacToeGrid />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div>
+          <TicTacToeGrid />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"

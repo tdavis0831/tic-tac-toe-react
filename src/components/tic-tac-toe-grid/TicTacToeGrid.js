@@ -14,7 +14,6 @@ function TicTacToeGrid() {
 
   return (
     <div className="tic-tac-toe-app">
-      <p> {JSON.stringify(gridState)} </p>
       <TicTacToeCell
         playerSymbol={playerSymbol}
         value={0}
