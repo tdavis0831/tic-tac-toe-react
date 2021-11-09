@@ -1,0 +1,14 @@
+.square {
+  --cell-font-color: #282c34;
+
+  display: block;
+  width: 125px;
+  height: 125px;
+  border: 1px solid var(--cell-font-color);
+
+  color: var(--cell-font-color);
+  font-size: 3em;
+  font-weight: 100;
+  text-align: center;
+  padding: 20px;
+}
