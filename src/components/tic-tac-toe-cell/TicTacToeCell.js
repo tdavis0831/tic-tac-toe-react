@@ -9,7 +9,7 @@ function TicTacToeCell({
   x,
   y,
 }) {
-  const handleClick = (event) => {
+  const handleClick = () => {
     const newGridState = [...gridState];
     let newPlayerSymbol = playerSymbol === "x" ? "o" : "x";
 
@@ -20,7 +20,7 @@ function TicTacToeCell({
   };
 
   return (
-    <button className="square" onClick={(event) => handleClick(event)}>
+    <button className="square" onClick={() => handleClick()}>
       {gridState[x][y]}
     </button>
   );
